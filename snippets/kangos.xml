@@ -33,7 +33,7 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="kangos" />
 
   <!-- external -->
-  <project path="external/RevengeUI-lib" name="RevengeUI-lib" remote="kangos" />
+  <project path="external/RevengeUI-lib" name="android_externalRevengeUI-lib" remote="kangos" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="kangos" />
 
   <!-- device -->

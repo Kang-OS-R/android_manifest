@@ -3,7 +3,7 @@
 <manifest>
 
   <remote  name="kangos"
-           fetch="https://github.com/KangOS-R"
+           fetch="https://github.com/Kang-OS-R"
            revision="eleven"
            sync-j="16" />
 

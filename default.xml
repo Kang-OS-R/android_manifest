@@ -830,5 +830,6 @@
   <include name="snippets/revengeos.xml" />
   <include name="snippets/hardware.xml" />
   <include name="snippets/temporary.xml" />
+  <include name="snippets/kangos.xml" />
 
 </manifest>

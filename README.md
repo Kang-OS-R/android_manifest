@@ -1,9 +1,11 @@
-# RevengeOS #
+# KangOS #
 
-<img src="https://raw.githubusercontent.com/RevengeOS/android_manifest/r10.0/RevengeOs-logo.jpg"> 
+<img src="https://i.ibb.co/Bg47twC/Pics-Art-10-11-01-40-57.jpg"> 
 
 Credits:
 =======
+ * [**AOKP**](https://github.com/AOKP)[AOKP The Original Masters of Kang]
+ * [**RevengeOS**](https://github.com/RevengeOS)
  * [**AOSP**](https://android.googlesource.com)
  * [**LineageOS**](https://github.com/LineageOS)
  * [**DirtyUnicorns**](https://github.com/dirtyunicorns)
@@ -13,10 +15,6 @@ Credits:
 
 -----------------------------------------------------------------------------
 
-Warning:
-==============
-
-The ROM is still in **alpha** stage. Reach us on [Telegram](https://t.me/itsrevengeos) in order to report any compilation issue / bug.
 
 Getting Started:
 ==============
@@ -26,7 +24,7 @@ To get started with the building process, you'll need to get familiar with [Git 
 To initialize your local repository, use a command like this:
 
 ```bash
-repo init -u https://github.com/RevengeOS/android_manifest -b r11.0
+repo init -u https://github.com/Kang-OS-R/android_manifest -b eleven
 ```
 Then to sync up:
 ================
@@ -43,22 +41,8 @@ From root directory of Project, perform following commands in terminal
 
 ```bash
 source build/envsetup.sh
-lunch revengeos_<devicecodename>-user
+lunch kangos_<devicecodename>-user
 make bacon
 ```
 -----------------------------------------------------------------------------
-
-## Report build issues
-- You can reach us via [Telegram](https://t.me/itsrevengeos)
-
-## Maintain Officially
-- If you're building **RevengeOS** for an unofficial device and would like to make it official, Check out the link below.  
-- [Click here for more info](https://forms.gle/aW2jQNRGFzUGgWED7)
-
-Some Links:-
-============
-* [**Website**](https://www.revengeos.com)
-* [**Telegram Public Chat**](https://t.me/itsrevengeos)
-* [**Telegram Channel**](https://t.me/RevengeOSNews)
-* [**Twitter**](https://twitter.com/itsrevengeos)
 

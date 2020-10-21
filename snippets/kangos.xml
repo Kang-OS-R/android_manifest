@@ -22,6 +22,7 @@
 
   <!-- packages -->
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="kangos" />
+  <project path="packages/apps/DU-Themes" name="android_packages_apps_DU-Themes" remote="kangos" />
 
   <!-- hardware -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="kangos" />

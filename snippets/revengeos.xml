@@ -36,9 +36,6 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="github" revision="lineage-17.1" />
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
 
-  <!-- system -->
-  <project path="system/bt" name="android_system_bt" remote="ros" />
-
   <!-- Qualcomm vendor repos -->
   <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" remote="github" revision="lineage-17.1" />
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" remote="github" revision="lineage-17.1" />

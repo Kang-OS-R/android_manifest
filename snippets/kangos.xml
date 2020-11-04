@@ -33,6 +33,8 @@
   <project path="packages/apps/AwakenSettings" name="android_packages_apps_Kangies-Lab" remote="kangos" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="kangos" />
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="kangos" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="kangos" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="kangos" />
 
   <!-- hardware -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="kangos" />
@@ -42,6 +44,7 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="kangos" />
   <project path="frameworks/base" name="android_frameworks_base" remote="kangos" />
   <project path="frameworks/native" name="android_frameworks_native" remote="kangos" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="kangos" />
 
   <!-- external -->
   <project path="external/RevengeUI-lib" name="android_external_RevengeUI-lib" remote="kangos" />

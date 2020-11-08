@@ -45,8 +45,6 @@
 
   <!-- system -->
   <project path="system/bt" name="android_system_bt" remote="ros" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="ros" />
-  <project path="system/vold" name="android_system_vold" remote="ros" />
 
     <!-- Qualcomm vendor repos -->
   <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" remote="github" revision="lineage-17.1" />

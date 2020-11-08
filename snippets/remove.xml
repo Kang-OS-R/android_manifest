@@ -45,6 +45,7 @@
   <remove-project name="device/google/wahoo" />
   <remove-project name="device/google/wahoo-kernel" />
   <remove-project name="device/google/fuchsia" />
+  <remove-project name="platform/hardware/knowles/athletico/sound_trigger_hal" />
   <remove-project name="device/linaro/bootloader/arm-trusted-firmware" />
   <remove-project name="device/linaro/bootloader/edk2" />
   <remove-project name="device/linaro/bootloader/OpenPlatformPkg" />
@@ -67,13 +68,13 @@
   <!-- hardware -->
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/interfaces" />
-
+  <remove-project name="platform/hardware/qcom/sdm845/display" />
   <!-- packages -->
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/services/Telephony" />
-
+  <remove-project name="platform/packages/apps/ThemePicker" />
   <!-- prebuilts -->
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
@@ -88,5 +89,5 @@
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
-
+  <remove-project name="platform/system/tools/mkbootimg" />
 </manifest>

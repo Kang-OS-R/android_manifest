@@ -47,7 +47,6 @@
   <remove-project name="device/google/wahoo" />
   <remove-project name="device/google/wahoo-kernel" />
   <remove-project name="device/google/fuchsia" />
-  <remove-project name="platform/hardware/knowles/athletico/sound_trigger_hal" />
   <remove-project name="device/linaro/bootloader/arm-trusted-firmware" />
   <remove-project name="device/linaro/bootloader/edk2" />
   <remove-project name="device/linaro/bootloader/OpenPlatformPkg" />
@@ -63,14 +62,24 @@
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/opt/net/wifi" />
 
   <!-- external -->
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/libcxx" />
 
   <!-- hardware -->
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/qcom/sdm845/display" />
+  <remove-project name="platform/hardware/qcom/wlan" />
+  <remove-project name="platform/hardware/knowles/athletico/sound_trigger_hal" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
+  <remove-project name="platform/hardware/qcom/camera" />
+  <remove-project name="platform/hardware/ril" />
+  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
+
   <!-- packages -->
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
@@ -82,6 +91,7 @@
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
 
   <!-- recovery -->
   <remove-project name="platform/bootable/recovery" />

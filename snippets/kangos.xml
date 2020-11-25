@@ -44,7 +44,7 @@
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="kangos" />
 
   <!-- packages -->
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="kangos" revision="eleven-lab" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="kangos" />
   <project path="packages/apps/DU-Themes" name="android_packages_apps_DU-Themes" remote="kangos" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="kangos" />
   <project path="packages/apps/CustomDoze" name="android_packages_apps_CustomDoze" remote="kangos" />

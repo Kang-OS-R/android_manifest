@@ -39,7 +39,9 @@
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="kangos" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="kangos" />
   <project path="system/vold" name="android_system_vold" remote="kangos" />
+  <project path="system/libufdt" name="android_system_libufdt" remote="kangos" />
  
+
   <!-- prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="kangos" />
 
@@ -58,6 +60,7 @@
   <project path="packages/apps/TouchGestures" name="android_packages_apps_TouchGestures" remote="kangos" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="kangos" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="kangos" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="kangos" />
 
   <!-- hardware -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="kangos" />

@@ -49,7 +49,7 @@ From root directory of Project, perform following commands in terminal
 
 
 ```bash
-source build/envsetup.sh
+. build/envsetup.sh
 lunch kangos_<devicecodename>-userdebug
 make bacon
 ```

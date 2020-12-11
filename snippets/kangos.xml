@@ -42,7 +42,8 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="kangos" />
   <project path="system/vold" name="android_system_vold" remote="kangos" />
   <project path="system/libufdt" name="android_system_libufdt" remote="kangos" />
- 
+  <project path="system/bt" name="android_system_bt" remote="kangos" />
+  <project path="system/netd" name="android_system_netd" remote="kangos" />
 
   <!-- prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="kangos" />
@@ -64,7 +65,11 @@
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="kangos" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="kangos" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="kangos" />
-
+  <project path="packages/modules/NetworkStack" name="android_packages_modules_NetworkStack" remote="kangos" />
+  
+  <!-- Tools -->
+  <project path="tools/metalava" name="android_tools_metalava" remote="kangos" />
+  
   <!-- hardware -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="kangos" />
   <project path="hardware/custom/interfaces" name="android_hardware_custom_interfaces" remote="kangos" />
@@ -116,7 +121,8 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-
+  <project path="build/blueprint" name="android_build_blueprint" remote="kangos" />
+  
   <!-- CAF HALs -->
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="kangos" >
     <!-- add guard for AOSP hardware/qcom dir -->

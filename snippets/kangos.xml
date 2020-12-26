@@ -66,6 +66,8 @@
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="kangos" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="kangos" />
   <project path="packages/modules/NetworkStack" name="android_packages_modules_NetworkStack" remote="kangos" />
+  <project path="packages/apps/PermissionController" name="android_packages_apps_PermissionController" remote="kangos" />
+  <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="kangos" />
   
   <!-- Tools -->
   <project path="tools/metalava" name="android_tools_metalava" remote="kangos" />

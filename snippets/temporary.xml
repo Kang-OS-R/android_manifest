@@ -30,9 +30,11 @@
   <project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="github" revision="lineage-17.1" />
 
   <project path="system/incremental_delivery" name="yaap/system_incremental_delivery" remote="github" revision="eleven" />
-    
+
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" remote="github" revision="lineage-18.1" />    
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="xiaomi-sm6250-devs/android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="github" revision="lineage-18.0" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="xiaomi-sm6250-devs/android_vendor_qcom_opensource_bluetooth_ext" remote="github" revision="lineage-18.0" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="stx-staging/android_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="11" />
   <project path="vendor/qcom/opensource/vibrator" name="derp-caf/vendor_qcom_opensource_vibrator" remote="github" revision="r11" />
+
 </manifest>

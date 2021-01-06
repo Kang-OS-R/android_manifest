@@ -87,7 +87,9 @@
   <remove-project name="platform/packages/apps/PhoneCommon" />
   <remove-project name="platform/packages/modules/NetworkStack" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
-  
+  <remove-project name="platform/packages/apps/Messaging" />
+  <remove-project name="platform/packages/apps/Dialer" />
+
   <!-- prebuilts -->
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />

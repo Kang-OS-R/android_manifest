@@ -2,6 +2,9 @@
 <!-- Non required or replaced repos -->
 <manifest>
 
+  <!-- ART -->
+  <remove-project name="platform/art" />
+	
   <!-- build -->
   <remove-project name="platform/bionic" />
   <remove-project name="platform/build" />
@@ -89,6 +92,7 @@
   <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Dialer" />
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
 
   <!-- prebuilts -->
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />

@@ -47,6 +47,7 @@
   <project path="system/libufdt" name="android_system_libufdt" remote="kangos" />
   <project path="system/bt" name="android_system_bt" remote="kangos" />
   <project path="system/netd" name="android_system_netd" remote="kangos" />
+  <project path="system/security" name="android_system_security" remote="kangos" />
 
   <!-- prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="kangos" />

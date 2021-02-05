@@ -108,6 +108,7 @@
   <project path="external/motorola/faceunlock" name="kang-os-r/android_external_motorola_faceunlock" remote="gitlab" revision="eleven" />
   <project path="external/selinux" name="android_external_selinux" remote="kangos" />
   <project path="external/libcxx" name="android_external_libcxx" remote="kangos" />
+  <project path="external/pulse" name="android_external_pulse" remote="kangos" />
 
   <!-- device -->
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="kangos" />

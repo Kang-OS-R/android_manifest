@@ -21,6 +21,7 @@
 
   <!-- vendor -->
   <project path="vendor/kangos" name="android_vendor_kangos" remote="kangos" />
+  <project path="vendor/themes" name="android_vendor_themes" remote="kangos" />
   <project path="vendor/revengeui" name="android_vendor_kangui" remote="kangos" />
   <project path="vendor/gapps" name="kang-os-r/vendor_gapps" remote="gitlab" revision="eleven" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="kangos" />
@@ -105,6 +106,7 @@
   <project path="external/RevengeUI-lib" name="android_external_KangUI-lib" remote="kangos" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="kangos" />
   <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="kangos" />
+  <project path="external/asus/stitchimage" name="android_external_asus_stitchimage" remote="kangos" />
   <project path="external/motorola/faceunlock" name="kang-os-r/android_external_motorola_faceunlock" remote="gitlab" revision="eleven" />
   <project path="external/selinux" name="android_external_selinux" remote="kangos" />
   <project path="external/libcxx" name="android_external_libcxx" remote="kangos" />

@@ -23,8 +23,9 @@
   <project path="vendor/kangos" name="android_vendor_kangos" remote="kangos" />
   <project path="vendor/themes" name="android_vendor_themes" remote="kangos" />
   <project path="vendor/revengeui" name="android_vendor_kangui" remote="kangos" />
-  <project path="vendor/gapps" name="kang-os-r/vendor_gapps" remote="gitlab" revision="eleven" />
+  <project path="vendor/gapps" name="ziauddinsameer/vendor_gapps" remote="gitlab" revision="eleven" />
   <project path="vendor/oplauncher" name="kang-os-r/android_vendor_oplauncher" remote="gitlab" revision="eleven" />
+  <project path="vendor/opfilemanager" name="android_vendor_opfilemanager" remote="kangos" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="kangos" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="kangos" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="kangos">
@@ -98,6 +99,7 @@
   <!-- frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="kangos" />
   <project path="frameworks/base" name="android_frameworks_base" remote="kangos" />
+  <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="kangos" />
   <project path="frameworks/native" name="android_frameworks_native" remote="kangos" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="kangos" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="kangos" />

@@ -14,6 +14,11 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
+  <remote  name="device"
+           fetch="https://github.com/KangOS-Device"
+           revision="eleven" />
+
+
   <project path="bionic" name="android_bionic" remote="kangos" />
 
   <!-- Art -->

@@ -21,7 +21,7 @@
   <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="github" revision="lineage-18.1" />
   <project path="external/ant-wireless/hidl" name="LineageOS/android_external_ant-wireless_hidl" remote="github" revision="lineage-18.1" />
   <project path="external/exfat" name="android_external_exfat" remote="ros" />
-  <project path="external/json-c" name="LineageOS/android_external_json-c" remote="github" revision="lineage-17.1" />
+  <project path="external/json-c" name="LineageOS/android_external_json-c" remote="github" revision="lineage-18.1" />
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="lineage-18.1" />
   
   <!-- packages -->

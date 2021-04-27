@@ -159,7 +159,7 @@ Another Simple Script For Setting Up Build Environment
 
 After Succesfully Compiling KangOS for your device, dont forgot to take a look at this : 
 
->> To get official maintainership for KangOS, refer [**here**](https://telegra.ph/Apply-for-KANG-OS-Official-11-26).
+>> To get official maintainership for KangOS, refer [**here**](https://telegra.ph/Apply-for-KANG-OS-Official-04-27).
 
 >> Contact us via   <a href="https://t.me/kangos">
 <img src="https://img.shields.io/badge/Telegram-Chat-blue?style=for-the-badge">

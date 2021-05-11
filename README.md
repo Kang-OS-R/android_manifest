@@ -56,6 +56,8 @@ KangOS Flags
 
 - TARGET_OPLAUNCHER := true, use this flag for including OnePlus Launcher ported by @MrSluffy in your KangOS build.
 
+- SHIP_LAWNCHAIR := true, use this flag for shipping Lawnchair Launcher by default.
+
 Finally to build
 ----------------
 

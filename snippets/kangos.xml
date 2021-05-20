@@ -28,7 +28,7 @@
   <project path="vendor/kangos" name="android_vendor_kangos" remote="kangos" />
   <project path="vendor/themes" name="android_vendor_themes" remote="kangos" />
   <project path="vendor/revengeui" name="android_vendor_kangui" remote="kangos" />
-  <project path="vendor/gapps" name="ziauddinsameer/vendor_gapps" remote="gitlab" revision="eleven" />
+  <project path="vendor/gapps" name="kang-os-r/vendor_gapps" remote="gitlab" revision="eleven" />
   <project path="vendor/oplauncher" name="ElectroPerf/vendor_oplauncher" remote="github" revision="11" />
   <project path="vendor/opfilemanager" name="android_vendor_opfilemanager" remote="kangos" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="kangos" />

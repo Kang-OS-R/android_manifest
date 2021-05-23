@@ -1,18 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Repos of LineageOS -->
 <manifest>
+
+  <remote  name="ros"
+           fetch="https://github.com/revengeos"
+           revision="r11.0"
+           sync-j="16" />
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="arrow"
+           fetch="https://github.com/ArrowOS"
+           revision="refs/heads/arrow-11.0" />
 
   <remote  name="common"
            fetch="https://github.com/AOSP-Common"
            revision="11.0"
            sync-j="16" />
 
-  <remove-project name="platform/frameworks/opt/telephony" />
+  <!-- Hals -->
+  <project path="hardware/qcom-caf/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1-caf" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="github" revision="lineage-18.1-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="github" revision="lineage-18.1-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="github" revision="lineage-18.1-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="github" revision="lineage-18.1-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1-caf-msm8998" />
+  <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrow" revision="arrow-11.0-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-11.0-caf-sdm845" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="stx-staging/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="github" revision="11-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/display" name="Kang-OS-R/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="github" revision="eleven-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/media" name="stx-staging/android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="github" revision="11-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="github" revision="lineage-18.1-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="github" revision="lineage-18.1-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1-caf-sm8250" />
+  <project path="hardware/qcom-caf/thermal" name="LineageOS/android_hardware_qcom_thermal" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1" />
+  <project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1" />
 
-  <remove-project name="platform/packages/apps/Bluetooth" />
-  <remove-project name="platform/packages/services/Telecomm" />
+  <!-- external -->
+  <project path="external/fastrpc" name="stx-staging/android_external_fastrpc" remote="github" revision="11" />
+  <project path="external/guice" name="yaap/external_guice" remote="github" revision="eleven" />
+  <project path="external/ant-wireless/ant_client" name="LineageOS/android_external_ant-wireless_ant_client" remote="github" revision="lineage-18.1" />
+  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="github" revision="lineage-18.1" />
+  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="github" revision="lineage-18.1" />
+  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="github" revision="lineage-18.1" />
+  <project path="external/ant-wireless/hidl" name="LineageOS/android_external_ant-wireless_hidl" remote="github" revision="lineage-18.1" />
+  <project path="external/exfat" name="android_external_exfat" remote="ros" />
+  <project path="external/json-c" name="LineageOS/android_external_json-c" remote="github" revision="lineage-18.1" />
+  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="lineage-18.1" />
+  
+  <!-- packages -->
+  <project path="packages/apps/Email" name="LineageOS/android_packages_apps_Email" remote="github" revision="lineage-18.1" />
+  <project path="packages/apps/UnifiedEmail" name="LineageOS/android_packages_apps_UnifiedEmail" remote="github" revision="lineage-18.1" />
 
-  <remove-project name="platform/system/bt" />
-	
+  <!-- prebuilts -->
+  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="github" revision="lineage-18.1" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" remote="github" revision="lineage-18.1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="github" revision="lineage-18.1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="github" revision="lineage-18.1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="mvaisakh/gcc-arm64" remote="github" revision="gcc-master" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="mvaisakh/gcc-arm" remote="github" revision="gcc-master" clone-depth="1" />
+
+  <!-- Qualcomm vendor repos -->
+  <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" remote="github" revision="lineage-18.1" />
+  <project path="vendor/qcom/opensource/healthd-ext" name="LineageOS/android_vendor_qcom_opensource_healthd-ext" remote="github" revision="lineage-18.1" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" remote="github" revision="lineage-18.1" />    
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="xiaomi-sm6250-devs/android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="github" revision="lineage-18.0" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="xiaomi-sm6250-devs/android_vendor_qcom_opensource_bluetooth_ext" remote="github" revision="lineage-18.0" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="stx-staging/android_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="11" />
+  <project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" remote="github" revision="lineage-18.1" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="common" />
+
+  <!-- System Repos -->
+  <project path="system/incremental_delivery" name="yaap/system_incremental_delivery" remote="github" revision="eleven" />
 
 </manifest>

@@ -3,7 +3,7 @@
 <centre> Yet Another cherry-picked [AOSP](https://source.android.com/) Custom ROM <centre/>
 
 
-![IMG_20210414_110617_741](https://user-images.githubusercontent.com/66476963/114659794-d9dbd600-9d11-11eb-90c9-c17fea4c399b.jpg)
+<p align="center"><img width="1000" src="https://github.com/Kang-OS-R/android_manifest/blob/eleven/banner.jpg"></p>
 
 Credits
 =======

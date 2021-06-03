@@ -833,4 +833,11 @@
 
   <!-- KangOS -->
   <include name="snippets/kangos.xml" />
+
+  <!-- LineageOS -->
+  <include name="snippets/lineage.xml" />
+
+  <!-- Remove -->
+  <include name="snippets/remove.xml" />
+
 </manifest>

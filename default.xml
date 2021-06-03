@@ -831,4 +831,6 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+  <!-- KangOS -->
+  <include name="snippets/kangos.xml" />
 </manifest>
